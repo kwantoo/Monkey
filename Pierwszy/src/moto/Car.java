@@ -8,7 +8,7 @@ public class Car {
 	public int ccm;
 	public double kWatts;
 	public String brand;
-	public double mnoznik = 1.36;
+	public double multiplexer = 1.36;
 	public double horsePwr;
 	
 	 Scanner odczyt = new Scanner(System.in);{
@@ -21,7 +21,7 @@ public class Car {
 	    System.out.println("Podaje moc w kW: ");
 	    kWatts = odczyt.nextDouble();
 	    odczyt.close();
-	    horsePwr = kWatts * mnoznik;
+	    horsePwr = kWatts * multiplexer;
 	    
 	    
 	System.out.println(brand + " " + prodYear + " " + ccm + " " + kWatts + " " + horsePwr);
